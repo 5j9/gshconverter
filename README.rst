@@ -30,9 +30,9 @@ The main functions are:
 
 Notes
 -----
-This library currently assumes 33-year cycles which means it will get inaccurate for dates too far in the future (the first known incorrect year is 1502 SH) or too far in the past (the results are known to be correct at least until 1210 SH according to `University of Tehran astronomical calculation`_.).
+This library currently assumes 33-year cycles which means it will get inaccurate for dates too far in the future (the first known incorrect year is 1502 SH) or too far in the past (the results are known to be correct at least until 1210 SH according to `University of Tehran astronomical calculation`_).
 
-The output of converter functions are the same as the ones in `FarsiWeb's jalali.c`_ , but ``gshconverter`` is slightly different algorithm and written from scratch. It also is faster than the `current Python implementation used in jdatetime library`_ .
+The output of converter functions are the same as the ones in `FarsiWeb's jalali.c`_ , but ``gshconverter`` uses a different algorithm and is written from scratch. It also is faster than the `current Python implementation used in jdatetime library`_ .
 
 .. _FarsiWeb's jalali.c: http://www.farsiweb.info/jalali/jalali.c
 .. _University of Tehran astronomical calculation: https://calendar.ut.ac.ir/Fa/News/Data/Doc/KabiseShamsi1206-1498-new.pdf
